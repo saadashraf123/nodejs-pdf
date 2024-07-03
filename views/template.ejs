@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/styles.css" />
+    <title>PDF Document</title>
+  </head>
+  <body>
+    <div id="PDFBack" class="PDFToPrint">
+      <div class="PDFToPrint__container">
+        <div class="PDFToPrint__left">
+          <img
+            src="/public/images/e_certificate.png"
+            class="PDFToPrint__left__head"
+          />
+          <div class="PDFToPrint__left__head__text__mid">
+            <div class="PDFToPrint__left__head__text__mid__space"></div>
+            <div class="PDFToPrint__left__head__text__mid__text">
+              of appreciation
+            </div>
+            <div class="PDFToPrint__left__head__text__mid__space"></div>
+          </div>
+          <img
+            src="/public/images/proudly_awarded_to.jpeg"
+            class="PDFToPrint__left__head__text__small"
+          />
+          <div class="PDFToPrint__left__name"><%= name %></div>
+          <img
+            src="/public/images/for_completing.jpeg"
+            class="PDFToPrint__left__pictext"
+          />
+          <div class="PDFToPrint__left__training"><%= course %></div>
+          <div class="PDFToPrint__left__datetext"><%= date %></div>
+          <div class="PDFToPrint__left__sign">
+            <div class="PDFToPrint__left__sign__one">
+              <img
+                class="PDFToPrint__left__sign__one__picture"
+                src="/public/images/sign_imran.jpeg"
+              />
+              <div class="PDFToPrint__left__sign__one__name">Imran Mazhar</div>
+              <div class="PDFToPrint__left__sign__one__designation">
+                T&D Manager
+              </div>
+            </div>
+            <div class="PDFToPrint__left__sign__one">
+              <img
+                class="PDFToPrint__left__sign__one__picture"
+                src="/public/images/sign_ali.jpeg"
+              />
+              <div class="PDFToPrint__left__sign__one__name">Ali Raza</div>
+              <div class="PDFToPrint__left__sign__one__designation">
+                Acting Head of HR
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="PDFToPrint__right"></div>
+      </div>
+    </div>
+  </body>
+</html>

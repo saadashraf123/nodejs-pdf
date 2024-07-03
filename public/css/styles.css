@@ -1,0 +1,123 @@
+.PDFToPrint {
+  background-image: url("../../assets/Certificate_Back.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  min-width: 1280px;
+  min-width: 1280px;
+  min-height: 904px;
+  min-height: 904px;
+  margin: auto;
+  max-width: fit-content;
+}
+
+.PDFToPrint__container {
+  min-width: 85%;
+  max-width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.PDFToPrint__left {
+  min-width: 50%;
+  min-width: 50%;
+  min-height: 600px;
+  margin: 100px 0;
+}
+
+.PDFToPrint__left__head {
+  width: 85%;
+  padding: 0 7.5% 10px 7.5%;
+  color: #00a0ad;
+  text-align: center;
+}
+
+.PDFToPrint__left__head__text__mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.PDFToPrint__left__head__text__mid__space {
+  min-height: 1px;
+  max-height: 1px;
+  min-width: 30%;
+  background-color: #00a0ad;
+}
+
+.PDFToPrint__left__head__text__mid__text {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: x-large;
+  padding: 0 2px;
+}
+
+.PDFToPrint__left__head__text__small {
+  margin: auto;
+  width: 45%;
+  padding: 0 27.5% 0 27.5%;
+}
+
+.PDFToPrint__left__name {
+  font-size: 50px;
+  /* font-weight: 900; */
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+}
+
+.PDFToPrint__left__pictext {
+  width: 60%;
+  padding: 0 20%;
+}
+.PDFToPrint__left__datetext {
+  text-align: center;
+  font-size: x-large;
+  color: #41424c;
+  margin: 0 auto 20px auto;
+}
+
+.PDFToPrint__left__training {
+  text-align: center;
+  font-size: xx-large;
+  color: #4b83a1;
+  font-family: "Khula", sans-serif;
+}
+
+.PDFToPrint__left__sign {
+  padding-top: 10px;
+  min-width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.PDFToPrint__left__sign__one {
+  min-width: 40%;
+  max-width: 40%;
+}
+
+.PDFToPrint__left__sign__one__picture {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #41424c;
+  padding-bottom: 5px;
+}
+
+.PDFToPrint__left__sign__one__name {
+  text-transform: uppercase;
+  font-size: x-large;
+  font-weight: 900;
+  font-family: "Khula", sans-serif;
+}
+
+.PDFToPrint__left__sign__one__designation {
+  font-size: medium;
+  font-weight: 600;
+  font-family: "Sanchez", serif;
+}
+
+.PDFToPrint__right {
+}
